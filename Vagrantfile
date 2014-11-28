@@ -11,7 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     config.vm.network :private_network, ip: "192.168.3.10"
     config.vm.hostname = "maximum.int"
-    config.hostsupdater.aliases = ["maximum.int", "education.maximum.int", "online.maximum.int"]
+    config.hostsupdater.aliases = ["project.int", "my.project.int"]
 
 
 
